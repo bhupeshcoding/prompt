@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Map Example</title>
+  <style>
+    /* Custom CSS */
+    /* Add any custom CSS styles here */
+    .map-container {
+      overflow: hidden;
+      position: relative;
+      width: 45%; /* Adjusted width for spacing */
+      height: 400px; /* Set a fixed height for the map */
+      margin-right: 20px; /* Added margin for spacing */
+      margin-bottom: 20px; /* Added margin for spacing */
+      float: left; /* Float left for alignment */
+    }
+    .map-container:last-child {
+      margin-right: 0; /* Remove margin from the last map container */
+    }
+    .map-container iframe {
+      border: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .footer {
+      background-color: #000;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      clear: both; /* Clear the floats */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Google Map -->
+<div class="map-container">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4041941571566!2d-74.0062086842445!3d40.71277598562123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598a79d9b859%3A0xf8dfcc55287e4e3!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1634580572034!5m2!1sen!2sin" 
+          frameborder="0" 
+          style="border:0" 
+          allowfullscreen>
+  </iframe>
+</div>
+
+<div class="map-container">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4041941571566!2d-74.0062086842445!3d40.71277598562123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598a79d9b859%3A0xf8dfcc55287e4e3!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1634580572034!5m2!1sen!2sin" 
+          frameborder="0" 
+          style="border:0" 
+          allowfullscreen>
+  </iframe>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <p>&copy; 2024 Your Website. All rights reserved.</p>
+</div>
+
+</body>
+</html>
