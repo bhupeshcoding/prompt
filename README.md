@@ -1,1 +1,1 @@
-I have learned about how to communicate with Ai, It is my first step towards prompt engineering. I learned effective way to communicate with AI.
+I have learned about how to communicate with Ai, It is my first step towards prompt engineering. I learned effective way to communicate with AI.Contributions and feedback are highly appreciated! If you have any suggestions, bug fixes, or feature requests, feel free to open an issue or submit a pull request. Let's collaborate and make this repository even better together.
